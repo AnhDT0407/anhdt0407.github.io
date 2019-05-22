@@ -1,0 +1,233 @@
+/**
+ * =============== Common ===============
+ */
+
+@media (min-width: 992px) {
+    .display-f {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font: 400 15px/30px "Poppins", sans-serif;
+    }
+}
+
+
+/**
+ * =============== Col ===============
+ */
+
+@media (min-width: 992px) {
+    .wel-section .col-left,
+    .wel-section .col-right {
+        height: 100vh;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-left {
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+    .col-right {
+        padding-left: 15px;
+    }
+    .col-right:before {
+        left: -220px !important;
+        width: 2000px !important;
+    }
+    .col-md-3 {
+        max-width: none;
+        flex: auto;
+    }
+    .col-md-9 {
+        max-width: none;
+        flex: auto;
+    }
+}
+
+
+/**
+ * =============== Welcome section ===============
+ */
+
+@media (max-width: 1199px) {
+    .header-contact-infos {
+        left: 80px;
+    }
+    .header-contact-info {
+        font-size: 14px;
+    }
+    .header-contact-info+.header-contact-info {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wel-section {
+        padding-top: 72px;
+    }
+    .wel-section .pt {
+        padding-top: 50px;
+    }
+    .header-photo,
+    .wel-social {
+        text-align: center;
+        margin-left: 0;
+    }
+    .wel-content {
+        padding-top: 75px;
+        padding-bottom: 150px;
+    }
+    .header-contact-infos {
+        left: 15px;
+    }
+    .wel-section .name {
+        font-size: 60px;
+    }
+    .header-contact-info+.header-contact-info {
+        padding-left: 80px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wel-content {
+        padding-top: 75px;
+        padding-bottom: 230px;
+    }
+    .header-contact-infos {
+        left: 0;
+        right: 0;
+        padding: 15px;
+    }
+    .header-contact-info {
+        width: 100%;
+        padding: 14px 0px;
+        float: left;
+    }
+    .header-contact-info+.header-contact-info {
+        padding-left: 0;
+    }
+}
+
+
+/**
+ * =============== About section ===============
+ */
+
+@media (min-width: 1200px) {
+    .sec-title h6 {
+        margin-left: -300px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .sec-title {
+        padding-right: 0px;
+    }
+    .sec-title h6 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .sec-title {
+        text-align: left;
+        padding-right: 0px;
+    }
+    .sec-title h2::before {
+        right: auto;
+        left: 0;
+    }
+    .col-right.sec-pad {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .about-content {
+        padding-right: 0px;
+    }
+}
+
+
+/**
+ * =============== Education section ===============
+ */
+
+@media (max-width: 1199px) {
+    .timeline:before {
+        bottom: 140px;
+    }
+}
+
+@media (max-width: 767px) {
+    .timeline {
+        padding-bottom: 20px;
+    }
+    .timeline:before {
+        left: 50%;
+        margin-left: -1px;
+        top: -35px;
+    }
+    .timeline-item {
+        padding-left: 0;
+        margin-top: 62px;
+        margin-bottom: 0;
+    }
+    .timeline-item+.timeline-item {
+        margin-top: 62px;
+    }
+    .timeline-item:before {
+        display: none;
+    }
+    .timeline-date {
+        width: 100%;
+        left: 0;
+        top: -45px;
+        text-align: center;
+    }
+    .timeline-date span {
+        background-color: #2d2e2e;
+        padding: 5px 8px;
+        border-radius: 4px;
+        line-height: 25px;
+        color: #999;
+        border: 1px solid #666;
+    }
+    .timeline-content {
+        padding: 15px 18px;
+        background-color: #292a2a;
+        border-radius: 5px;
+    }
+}
+
+
+/**
+ * =============== Experiences section ===============
+ */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+
+/**
+ * =============== sss section ===============
+ */
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}

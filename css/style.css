@@ -1,0 +1,414 @@
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    font: 400 15px/30px "Poppins", sans-serif;
+    letter-spacing: 0px;
+    color: #777777;
+}
+
+
+/**
+ * =============== Navbar ===============
+ */
+
+.navbar {
+    padding: 1rem;
+    background-color: transparent;
+    transition: .5s;
+}
+
+.bg-dark {
+    padding: .5rem 1rem;
+    background-color: #1f1f1f !important;
+    /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar .navbar-brand {
+    color: #999999;
+}
+
+.navbar button {
+    border: none;
+    background-color: transparent;
+    color: #999999;
+    padding: 0;
+    z-index: 10;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+}
+
+.navbar button:focus {
+    outline: none;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #999999;
+    width: 35px;
+    transition: all 0.25s ease;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 8px;
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(1) {
+    transform: none;
+}
+
+.navbar-toggle .icon-bar:nth-child(1) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(2) {
+    opacity: 1;
+}
+
+.navbar-toggle .icon-bar:nth-child(2) {
+    opacity: 0;
+}
+
+.navbar-toggle.collapsed .icon-bar:nth-child(3) {
+    transform: none;
+}
+
+.navbar-toggle .icon-bar:nth-child(3) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+
+/**
+ * =============== Col ===============
+ */
+
+section {
+    overflow: hidden;
+}
+
+.col-left,
+.col-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-left {
+    position: relative;
+    padding-top: 120px;
+}
+
+.col-right {
+    position: relative;
+    padding-left: 100px;
+}
+
+.col-left:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 2000px;
+    right: 50%;
+    transform: translateX(50%);
+    background: #2b2c2c;
+    border-color: #2b2c2c;
+}
+
+@media (min-width: 992px) {
+    .col-left::before {
+        right: -16px;
+        border: none;
+        transform: none;
+    }
+}
+
+
+/**
+ * Col dark
+ */
+
+.dark-bg.bg-color .col-left:before {
+    background: #292a2a;
+}
+
+.dark-bg .col-right:before {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: -1;
+    left: 16px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100vw;
+    background-color: #2d2e2e;
+}
+
+.dark-bg.bg-color .col-right:before {
+    background-color: #2b2c2c;
+}
+
+
+/**
+ * =============== Sidebar Menu ===============
+ */
+
+.show {
+    transform: none;
+    width: 305px !important;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(25, 25, 25);
+    overflow-x: hidden;
+    transition: all 0.4s ease;
+}
+
+.sidebar .menu {
+    padding-top: 72px;
+}
+
+.sidebar.collapse:not(.show) {
+    display: block;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: -18px;
+    right: 24px;
+    color: #999;
+    font-size: 60px;
+    transition: .5s;
+}
+
+.sidebar .closebtn:hover {
+    text-decoration: none;
+}
+
+.sidebar>ul>li {
+    width: 100%;
+}
+
+.sidebar>ul>li>a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-left: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.3s linear;
+    display: block;
+    color: #999;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+.sidebar>ul>li>a:hover {
+    color: #f1b200;
+    text-decoration: none;
+}
+
+
+/**
+ * =============== Title - common ===============
+ */
+
+.sec-title {
+    text-align: right;
+    padding-right: 39px;
+}
+
+.sec-title.dk h2 {
+    color: #999;
+}
+
+.sec-title h2 {
+    font: 500 22px "Poppins", sans-serif;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    color: #666666;
+    position: relative;
+    padding-top: 24px;
+    line-height: 30px;
+    padding-bottom: 5px;
+}
+
+.sec-title h2:before {
+    content: "";
+    width: 50px;
+    height: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f1b200;
+}
+
+.sec-title.dk h6 {
+    color: #666;
+}
+
+.sec-title h6 {
+    font: 400 16px "Open Sans", sans-serif;
+    font-style: italic;
+    color: #999;
+}
+
+.title {
+    font: 500 16px "Poppins", sans-serif;
+    color: #555;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    cursor: pointer;
+}
+
+.sec-pad {
+    padding-top: 111px;
+    padding-bottom: 114px;
+    transition: .5s;
+}
+
+
+/**
+ * =============== Dark theme css ===============
+ */
+
+.dark-bg .title {
+    color: #999;
+}
+
+.dark-bg .title:hover {
+    color: #f1b200;
+}
+
+.dark-bg .ex-content p {
+    color: #999;
+}
+
+.dark-bg .ex-content:before {
+    background: #666666;
+}
+
+
+/**
+ * =============== Timeline css ===============
+ */
+
+.timeline {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 840px;
+    position: relative;
+}
+
+.timeline:before {
+    position: absolute;
+    top: 4px;
+    bottom: 100px;
+    width: 2px;
+    background: #666;
+    left: 140px;
+    margin-left: 0px;
+}
+
+.timeline-item:before,
+.timeline:before {
+    content: '';
+}
+
+::after,
+::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 200px;
+    list-style: none;
+}
+
+.timeline-item+.timeline-item {
+    margin-top: 50px;
+}
+
+.timeline-item:before {
+    position: absolute;
+    top: 3px;
+    left: 134px;
+    border: 2px solid #666;
+    width: 14px;
+    height: 14px;
+    background-color: #f1b200;
+    border-radius: 50px;
+}
+
+.timeline-date {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: -5px;
+    width: 90px;
+    text-align: left;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.timeline-date span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+    font-size: 15px;
+    color: #777777;
+}
+
+.timeline-content:before {
+    content: "";
+}
+
+.timeline-content {
+    position: relative;
+    min-height: 85px;
+    transition: .5s;
+}
+
+.ex-content .title {
+    font-size: 18px;
+}
+
+.ex-content h5 {
+    margin-bottom: 15px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 15px;
+    color: #777777;
+}

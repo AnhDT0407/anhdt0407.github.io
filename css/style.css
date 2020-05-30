@@ -403,7 +403,7 @@ section {
 
 .timeline:before {
   position: absolute;
-  top: 6px;
+  top: 7px;
   bottom: 100px;
   width: 2px;
   background: #666;
@@ -434,7 +434,7 @@ section {
 
 .timeline-item:before {
   position: absolute;
-  top: 6px;
+  top: 7px;
   left: 134px;
   border: 2px solid #666;
   width: 14px;
@@ -447,7 +447,7 @@ section {
   position: absolute;
   display: block;
   left: 0;
-  top: -5px;
+  top: -2px;
   width: 90px;
   text-align: left;
   overflow: hidden;

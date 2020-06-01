@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700");
 
-/*========================*/
+/*-----------------------*/
 
 body,
 p,
@@ -25,7 +25,7 @@ body {
 }
 
 
-/*=========== pre-loader css =============*/
+/*-------- pre-loader css --------*/
 
 .loader-container {
   position: fixed;
@@ -92,9 +92,7 @@ body {
 }
 
 
-/**
- * =============== Navbar ===============
- */
+/*-------- Navbar --------*/
 
 .navbar {
   padding: 1rem;
@@ -169,9 +167,7 @@ body {
 }
 
 
-/**
- * =============== Col ===============
- */
+/*-------- Col --------*/
 
 section {
   overflow: hidden;
@@ -243,9 +239,7 @@ section {
 }
 
 
-/**
- * =============== Sidebar Menu ===============
- */
+/*-------- Sidebar Menu --------*/
 
 .show {
   transform: none;
@@ -311,9 +305,7 @@ section {
 }
 
 
-/**
- * =============== Title - common ===============
- */
+/*-------- Title - common --------*/
 
 .sec-title {
   text-align: right;
@@ -369,9 +361,7 @@ section {
 }
 
 
-/**
- * =============== Dark theme css ===============
- */
+/*-------- Dark theme css --------*/
 
 .dark-bg .title {
   color: #999;
@@ -390,9 +380,7 @@ section {
 }
 
 
-/**
- * =============== Timeline css ===============
- */
+/*-------- Timeline css --------*/
 
 .timeline {
   margin: 0 auto;

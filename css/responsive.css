@@ -1,12 +1,4 @@
-/**
- * =============== Common ===============
- */
-
-@media (min-width: 992px) {
-  .display-f {
-    display: flex;
-  }
-}
+/*-------- Common --------*/
 
 @media (max-width: 767px) {
   body {
@@ -15,9 +7,7 @@
 }
 
 
-/**
- * =============== Col ===============
- */
+/*-------- Col --------*/
 
 @media (min-width: 992px) {
   .wel-section .col-left,
@@ -49,9 +39,7 @@
 }
 
 
-/**
- * =============== Welcome section ===============
- */
+/*-------- Welcome section --------*/
 
 @media (max-width: 1199px) {
   .header-contact-infos {
@@ -115,9 +103,7 @@
 }
 
 
-/**
- * =============== About section ===============
- */
+/*-------- About section --------*/
 
 @media (min-width: 1200px) {
   .sec-title h6 {
@@ -153,9 +139,7 @@
 }
 
 
-/**
- * =============== Education section ===============
- */
+/*-------- Education section --------*/
 
 @media (max-width: 1199px) {
   .timeline:before {
@@ -206,9 +190,16 @@
 }
 
 
-/**
- * =============== Experiences section ===============
- */
+/*-------- Technology-skills section --------*/
+
+@media (max-width: 767px) {
+  .technology-skills .skill.mb-c {
+    margin-bottom: 3rem;
+  }
+}
+
+
+/*-------- Experiences section --------*/
 
 @media (max-width: 1199px) {}
 
@@ -221,9 +212,7 @@
 @media (max-width: 480px) {}
 
 
-/**
- * =============== sss section ===============
- */
+/*-------- sss section --------*/
 
 @media (max-width: 1199px) {}
 

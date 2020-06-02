@@ -24,6 +24,14 @@ body {
   color: #777777;
 }
 
+table {
+  line-height: 1.75;
+}
+
+.color-9 {
+  color: #999;
+}
+
 
 /*-------- pre-loader css --------*/
 
@@ -355,8 +363,8 @@ section {
 }
 
 .sec-pad {
-  padding-top: 111px;
-  padding-bottom: 114px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   transition: .5s;
 }
 
@@ -466,7 +474,7 @@ section {
 }
 
 .ex-content h5 {
-  margin-bottom: 15px;
+  margin-bottom: 18px;
   padding-top: 10px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;

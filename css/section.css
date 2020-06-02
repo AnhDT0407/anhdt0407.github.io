@@ -116,11 +116,15 @@
 /*-------- Education section --------*/
 
 .education .timeline:before {
-  bottom: 145px;
+  bottom: 75px;
 }
 
 
 /*-------- Technology-skills section --------*/
+
+.technology-skills .skill.mb-c {
+  margin-bottom: 45px;
+}
 
 .technology-skills .skill .icon {
   display: table-cell;
@@ -140,6 +144,10 @@
 
 
 /*-------- Expertise section --------*/
+
+.expertise .mb-c {
+  margin-bottom: 45px;
+}
 
 .expertise .icon {
   display: table-cell;

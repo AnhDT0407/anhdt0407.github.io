@@ -130,7 +130,7 @@
     left: 0;
   }
   .col-right.sec-pad {
-    padding-top: 40px;
+    padding-top: 50px;
     padding-bottom: 50px;
   }
   .about-content {
@@ -158,11 +158,11 @@
   }
   .timeline-item {
     padding-left: 0;
-    margin-top: 62px;
+    margin-top: 69px;
     margin-bottom: 0;
   }
   .timeline-item+.timeline-item {
-    margin-top: 62px;
+    margin-top: 69px;
   }
   .timeline-item:before {
     display: none;
@@ -170,14 +170,14 @@
   .timeline-date {
     width: 100%;
     left: 0;
-    top: -45px;
+    top: -50px;
     text-align: center;
   }
   .timeline-date span {
     background-color: #2d2e2e;
-    padding: 3px 8px;
-    border-radius: 4px;
-    line-height: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: 32px;
     color: #c7af8b;
     border: 1px solid #666;
   }
@@ -193,8 +193,19 @@
 /*-------- Technology-skills section --------*/
 
 @media (max-width: 767px) {
-  .technology-skills .skill.mb-c {
-    margin-bottom: 3rem;
+  .technology-skills .skill.mb-c,
+  .technology-skills .skill.mb-c-r {
+    margin-bottom: 30px;
+  }
+}
+
+
+/*-------- Expertise section --------*/
+
+@media (max-width: 767px) {
+  .expertise .mb-c,
+  .expertise .mb-c-r {
+    margin-bottom: 30px;
   }
 }
 

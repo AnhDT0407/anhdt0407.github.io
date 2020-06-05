@@ -172,6 +172,14 @@
   bottom: 220px;
 }
 
+.experiences .mentor {
+  margin-top: 60px;
+}
+
+.experiences .mentor .timeline:before {
+  bottom: -20px;
+}
+
 
 /*-------- Footer section --------*/
 

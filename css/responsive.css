@@ -212,11 +212,26 @@
 
 /*-------- Experiences section --------*/
 
-@media (max-width: 1199px) {}
+@media (max-width: 1199px) {
+  .experiences .timeline:before {
+    bottom: 245px;
+  }
+}
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+  .experiences .timeline:before {
+    bottom: 220px;
+  }
+}
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+  .experiences .mentor {
+    margin-top: 20px;
+  }
+  .experiences .mentor .timeline:before {
+    bottom: 200px;
+  }
+}
 
 @media (max-width: 576px) {}
 

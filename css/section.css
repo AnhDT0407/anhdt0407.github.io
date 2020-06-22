@@ -120,6 +120,51 @@
 }
 
 
+/*-------- Soft-skills section --------*/
+
+.soft-skills a {
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+  border-bottom: 2px solid #444;
+  color: #999;
+}
+
+.soft-skills a i {
+  transition: .6s;
+  margin-top: 8px;
+}
+
+.soft-skills .collapsed i {
+  transform: rotate(-90deg);
+  transition: .6s;
+  margin-top: 8px;
+}
+
+.soft-skills a:hover {
+  text-decoration: none;
+  color: #f1b200;
+}
+
+.soft-skills .show {
+  width: 100% !important;
+}
+
+.soft-skills .card {
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #444;
+  background-color: #292a2a;
+  font-size: 14px;
+}
+
+.soft-skills .card.card-body { 
+  padding: 10px 15px;
+  line-height: 25px;
+}
+
+
 /*-------- Technology-skills section --------*/
 
 .technology-skills .skill.mb-c {

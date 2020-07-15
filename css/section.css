@@ -159,7 +159,7 @@
   font-size: 14px;
 }
 
-.soft-skills .card.card-body { 
+.soft-skills .card.card-body {
   padding: 10px 15px;
   line-height: 25px;
 }
@@ -223,6 +223,22 @@
 
 .experiences .mentor .timeline:before {
   bottom: -20px;
+}
+
+.awards .award .icon {
+  display: table-cell;
+}
+
+.awards .award .icon svg {
+  font-size: 40px;
+  color: #f1b200;
+  margin-top: 8px;
+  margin-right: 30px;
+}
+
+.awards .award .description {
+  display: table-cell;
+  vertical-align: top;
 }
 
 

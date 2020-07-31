@@ -32,6 +32,16 @@ table {
   color: #999;
 }
 
+.link {
+  color: #999;
+  transition: color 0.25s ease;
+}
+
+.link:hover {
+  color: #f1b200;
+  text-decoration: none;
+}
+
 
 /*-------- pre-loader css --------*/
 

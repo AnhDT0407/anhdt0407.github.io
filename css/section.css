@@ -178,7 +178,7 @@
 .technology-skills .skill .icon svg {
   font-size: 40px;
   color: #f1b200;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-right: 30px;
 }
 
@@ -201,7 +201,7 @@
 .expertise .icon svg {
   font-size: 40px;
   color: #f1b200;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-right: 30px;
 }
 
@@ -225,6 +225,9 @@
   bottom: -20px;
 }
 
+
+/*-------- Awards section --------*/
+
 .awards .award .icon {
   display: table-cell;
 }
@@ -232,11 +235,30 @@
 .awards .award .icon svg {
   font-size: 40px;
   color: #f1b200;
-  margin-top: 8px;
+  margin-top: 7px;
   margin-right: 30px;
 }
 
 .awards .award .description {
+  display: table-cell;
+  vertical-align: top;
+}
+
+
+/*-------- Activities section --------*/
+
+.activities .activity .icon {
+  display: table-cell;
+}
+
+.activities .activity .icon svg {
+  font-size: 40px;
+  color: #f1b200;
+  margin-top: 6px;
+  margin-right: 30px;
+}
+
+.activities .activity .description {
   display: table-cell;
   vertical-align: top;
 }

@@ -21,6 +21,11 @@
 
 .wel-section .header-photo img {
   width: 100%;
+  filter: grayscale(50%);
+}
+
+.wel-section .header-photo img.img-circle {
+  border-radius: 50%;
 }
 
 .wel-section .hello {

@@ -89,14 +89,18 @@
 .wel-social {
   display: block;
   margin-top: 30px;
-  margin-left: 48px;
+  text-align: center;
 }
 
 .wel-social a {
   color: #666;
   transition: color 0.25s ease;
   font-size: 25px;
-  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.wel-social a:last-child {
+  margin-right: 0;
 }
 
 .wel-social a:hover,

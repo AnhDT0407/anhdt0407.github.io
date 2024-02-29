@@ -218,8 +218,8 @@ section {
   width: 2000px;
   right: 50%;
   transform: translateX(50%);
-  background: #2b2c2c;
-  border-color: #2b2c2c;
+  background: #282929;
+  border-color: #282929;
 }
 
 @media (min-width: 992px) {
@@ -236,7 +236,7 @@ section {
  */
 
 .dark-bg.bg-color .col-left:before {
-  background: #292a2a;
+  background: #242525;
 }
 
 .dark-bg .col-right:before {
@@ -253,7 +253,7 @@ section {
 }
 
 .dark-bg.bg-color .col-right:before {
-  background-color: #2b2c2c;
+  background-color: #282929;
 }
 
 
